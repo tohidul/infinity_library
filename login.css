@@ -1,0 +1,81 @@
+body {
+    /*background-image: url("loginImg.jpg");*/
+    /*height: 100%; */
+
+    
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;
+    background-size: cover;*/
+
+}
+
+
+
+.login_err{
+	color: red;
+}
+.text_input{
+	width: 300px;
+	height: 44px;
+	margin-left: 0px;
+	padding-left: 30px;
+	display: inline-block;
+	
+}
+
+label{
+    display:inline-block;
+    width:100px;
+    align-content: left;
+}
+
+#submit_button {
+
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 4% 34%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    left: 22%;
+
+
+
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+#submit_button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+#loginForm{
+	position: absolute;
+	top: 22%;
+	left: 33%;
+	background-color: white;
+}
+
+
+#back_to_home:link, #back_to_home:visited{
+    background-color: #060e1c;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+#back_to_home:hover {
+    background-color: black;
+}
+
